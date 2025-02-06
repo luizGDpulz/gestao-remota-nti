@@ -52,11 +52,11 @@ class AppCRUD:
         self.root = root  
         self.root.title("Gestão de Funcionários Remota")  
         self.conexao = mysql.connector.connect(  
-            host='wxlfs.h.filess.io',  
-            port="3307",
-            user='gestaopessoalremoto_tillworeor',  
-            password='47d72ee930609b19bddef945fe694a23f21740b7',  
-            database='gestaopessoalremoto_tillworeor'  
+            host='',  
+            port='',
+            user='',  
+            password='',  
+            database=''  
         )  
         self.cursor = self.conexao.cursor()  
         self.criar_interface()
